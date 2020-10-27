@@ -1,0 +1,12 @@
+/*
+** List
+*/
+
+.c-list {
+  list-style: none;
+  margin-right: 1.5rem;
+
+  .c-list__link {
+    color: $color-blue-light;
+  }
+}

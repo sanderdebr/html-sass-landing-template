@@ -1,74 +1,146 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+
     <title>Free HTML5 CSS3 Landing Page Template</title>
-    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="t">
-    <div class="rn">
-      <header class="nb r">
-        <div class="tcontainern">
-          <div class="n_">
-            <div class="nk reveal-from-top">
-              <h1 class="or">
-                <a href="index.html"
-                  ><img
-                    src="images/logo.svg"
-                    alt="Supreme"
-                    width="32"
-                    height="32"
-                /></a>
-              </h1>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="c-link" href="#">
+            <div class="c-logo">
+              <img src="img/logo.png" alt="Logo" class="c-logo__img" />
+              <span class="c-logo__text c-logo__text--white">appy</span>
             </div>
-            <button
-              id="tc"
-              class="tc"
-              aria-controls="primary-menu"
-              aria-expanded="false"
-            >
-              <span class="si">Menu</span>
-              <span class="th"><span class="tp"></span></span>
+          </a>
+          <nav class="nav">
+            <ul class="c-list">
+              <li class="c-list__item">
+                <a href="#" class="c-link c-link--list">Services</a>
+              </li>
+            </ul>
+            <button class="c-button c-button--small c-button--secondary">
+              Sign Up
             </button>
-            <nav id="nj" class="nj">
-              <div class="nq">
-                <ul class="ss h re">
-                  <li class="reveal-from-top" data-reveal-delay="100">
-                    <a href="additional.html">Secondary page</a>
-                  </li>
-                </ul>
-                <ul class="ss re">
-                  <li class="reveal-from-top" data-reveal-delay="200">
-                    <a
-                      class="tbuttonn fbuttonl gbuttony sbuttono"
-                      href="signup.html"
-                      >Sign up</a
-                    >
-                  </li>
-                </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="c-hero">
+          <div class="container">
+            <div class="c-hero__content">
+              <h1 class="heading heading--1 heading--light">
+                Stay connected together in your own business network
+              </h1>
+              <h4 class="heading heading--4 heading--blue">
+                Personalized experiences are proven to increase conversions.
+                Apply makes it easy. Let's make the internet delightfully human.
+              </h4>
+              <div class="c-hero__button-group">
+                <button class="c-button c-button--primary">
+                  Get early access
+                </button>
+                <button class="c-button c-button--secondary">Learn more</button>
               </div>
-            </nav>
+            </div>
+
+            <div class="c-hero__img-holder">
+              <img
+                class="c-hero__img"
+                src="img/dashboard.png"
+                alt="Dashboard"
+              />
+            </div>
           </div>
         </div>
-      </header>
-      <main class="nw">
-        <section class="is nx r ig fr">
-          <div class="tcontainern">
-            <div class="sn rd iu">
-              <div class="io reveal-from-left">
-                <h3 class="or">Nisi porta lorem mollis aliquam ut.</h3>
-              </div>
-              <div class="cta-action reveal-from-right">
-                <a class="tbuttonn fbuttonl gbuttony" href="#">Get started</a>
-              </div>
-            </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__title-wrapper">
+            <h2 class="heading heading--2">
+              Finally focus on marketing strategy
+            </h2>
+
+            <h4 class="heading heading--4">
+              In the old days, your website was the same for everyone. Not
+              anymore. Experiences lets you adapt your website for every
+              audience.
+            </h4>
           </div>
-        </section>
-      </main>
-      <footer></footer>
-    </div>
-    <script src="js/main.min.js"></script>
+
+          <div class="box">
+            <article class="c-card">
+              <div class="c-card__content">
+                <h3 class="c-card__title heading heading--3">
+                  Seamless collaboration
+                </h3>
+                <p class="c-paragraph c-card__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  — Ut enim ad minim veniam,
+                  <a href="#" class="c-link">quis nostrud exercitation</a>
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div class="c-card__img-holder">
+                <img class="c-card__img" src="img/feature-1.png" alt="" />
+              </div>
+            </article>
+
+            <article class="c-card">
+              <div class="c-card__content">
+                <h3 class="c-card__title heading heading--3">
+                  Seamless collaboration
+                </h3>
+                <p class="c-paragraph c-card__text">
+                  Lorem ipsum dolor sit amet,
+                  <a href="#" class="c-link">consectetur adipiscing</a> elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua — Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+
+              <div class="c-card__img-holder">
+                <img class="c-card__img" src="img/feature-2.png" alt="" />
+              </div>
+            </article>
+
+            <article class="c-card">
+              <div class="c-card__content">
+                <h3 class="c-card__title heading heading--3">
+                  Seamless collaboration
+                </h3>
+                <p class="c-paragraph c-card__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod <a href="#" class="c-link">tempor incididunt</a> ut
+                  labore et dolore magna aliqua — Ut enim ad minim veniam, quis
+                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat.
+                </p>
+              </div>
+
+              <div class="c-card__img-holder">
+                <img class="c-card__img" src="img/feature-3.png" alt="" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
