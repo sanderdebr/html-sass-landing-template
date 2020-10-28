@@ -9,4 +9,24 @@
   .c-list__link {
     color: $color-blue-light;
   }
+
+  .c-list__icon {
+    width: 2rem;
+
+    &--check {
+      &:before {
+        content: "\2713";
+        display: inline-block;
+        color: $color-primary;
+      }
+    }
+
+    &--cross {
+      &:before {
+        content: "\274c";
+        display: inline-block;
+        color: $color-pink;
+      }
+    }
+  }
 }

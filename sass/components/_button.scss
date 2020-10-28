@@ -30,6 +30,10 @@
     color: white;
   }
 
+  &--block {
+    width: 100%;
+  }
+
   &:after {
     top: 0;
     left: -50%;
