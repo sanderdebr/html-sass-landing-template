@@ -90,4 +90,9 @@
       background-color: $color-blue-light;
     }
   }
+
+  &--list-right {
+    margin-right: 0;
+    margin-left: 1.5rem;
+  }
 }

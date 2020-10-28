@@ -1,3 +1,7 @@
+/*
+** Container
+*/
+
 .container {
   max-width: 100%;
   margin: 0 auto;
@@ -7,6 +11,10 @@
     max-width: 1128px;
   }
 }
+
+/*
+** Header
+*/
 
 .header {
   position: absolute;
@@ -22,6 +30,10 @@
     justify-content: space-between;
   }
 }
+
+/*
+** Section
+*/
 
 .section {
   margin: 4rem 0;
@@ -39,6 +51,19 @@
     padding: 4rem 0;
   }
 
+  &.banner {
+    position: relative;
+
+    &:before {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: $color-blue-dark;
+      z-index: -1;
+    }
+  }
+
   &:first-of-type {
     margin: 0 0 4rem 0;
   }
@@ -47,6 +72,10 @@
     margin: 4rem 0 0 0;
   }
 }
+
+/*
+** Box
+*/
 
 .box {
   &--flex {
@@ -81,13 +110,43 @@
   }
 }
 
+/*
+** Nav
+*/
+
 .nav {
   display: flex;
   align-items: center;
 }
 
+/*
+** Button group
+*/
+
 .button__group {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/*
+** Footer
+*/
+
+.footer {
+  position: relative;
+  background-color: $color-blue-dark;
+  z-index: 0;
+
+  &:after {
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../img/footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
 }
