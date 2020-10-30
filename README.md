@@ -23,6 +23,7 @@ This template compiles SASS to optimized CSS code. Run the command `npm build` t
 
 ### Techniques
 <ul>
+  <li>HTML5 & CSS3 with animations</li>
   <li>BEM CSS conventions</li>
   <li>Independent components</li>
   <li>Fully responsive</li>
