@@ -74,5 +74,9 @@
     background-repeat: no-repeat;
     transform: translate(-50%);
     z-index: -1;
+
+    @supports (-ms-ime-align: auto) {
+      width: 0;
+    }
   }
 }
