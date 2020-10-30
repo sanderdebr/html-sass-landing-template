@@ -14,7 +14,7 @@ Custom designed and developed by me.
 ### Folder structure
 
 ```
-css
+css                   // output of compiled SASS
 img
 sass
 |-- components        // all components
@@ -22,6 +22,7 @@ sass
 |-- _layout.scss      // structuring components
 |-- _typography.scss  // type styles
 |-- main.scss         // importing all other files
+index.html
 ```
 
 
