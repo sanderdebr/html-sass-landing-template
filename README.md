@@ -43,5 +43,6 @@ This template compiles SASS to optimized CSS code. Run the command `npm build` t
   <li>Independent components</li>
   <li>Fully responsive</li>
   <li>CSS Flexbox & Grid</li>
+  <li>Pure CSS menu toggle</li>
   <li>Mobile first</li>
 </ul>
