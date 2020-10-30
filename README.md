@@ -1,6 +1,8 @@
 # Free HTML5 & SASS Landing Template
 
-Modern free landing page for SaaS software or app! Custom designed and developed by me. 
+Modern free landing page for SaaS software or app! 
+
+Custom designed and developed by me. 
 
 [Checkout the live demo](https://sanderdebr.github.io/html-sass-landing-template/)
 <br><br>
