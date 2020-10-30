@@ -7,9 +7,7 @@ Modern free landing page for SaaS software or app!
 
 Custom designed and developed by me. 
 
-[Checkout the live demo](https://sanderdebr.github.io/html-sass-landing-template/)
-<br><br>
-[Checkout the custom design](https://dribbble.com/shots/14445192-Landing-page-template)
+[Checkout the live demo](https://sanderdebr.github.io/html-sass-landing-template/) | [Checkout the custom design](https://dribbble.com/shots/14445192-Landing-page-template)
 
 <hr/>
 
