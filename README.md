@@ -11,6 +11,20 @@ Custom designed and developed by me.
 
 <hr/>
 
+### Folder structure
+
+```
+css
+img
+sass
+|-- components        // all components
+|-- _base.scss        // general styles
+|-- _layout.scss      // structuring components
+|-- _typography.scss  // type styles
+|-- main.scss         // importing all other files
+```
+
+
 ### How to use
 Make sure you have node.js installed on your machine. Run `npm start` in the root directory to startup the dev server.
 
