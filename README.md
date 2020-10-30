@@ -32,7 +32,7 @@ Make sure you have node.js installed on your machine. Run `npm start` in the roo
 <hr/>
 
 ### How to build
-This template compiles SASS to optimized CSS code. Run the command `npm build` to create the compiled CSS.
+This template compiles SASS to optimized CSS code. Run the command `npm build:css` to create the compiled CSS.
 
 <hr/>
 
