@@ -21,7 +21,6 @@ This template compiles SASS to optimized CSS code. Run the command `npm build` t
 <hr/>
 
 ### Techniques
-<hr/>
 <ul>
   <li>BEM CSS conventions</li>
   <li>Independent components</li>
