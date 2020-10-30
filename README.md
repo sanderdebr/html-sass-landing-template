@@ -5,7 +5,7 @@ Modern free landing page for SaaS software or app!
 Custom designed and developed by me. 
 
 [Checkout the custom design](https://dribbble.com/shots/14445192-Landing-page-template)
-<br><br>
+<br>
 [Checkout the live demo](https://sanderdebr.github.io/html-sass-landing-template/)
 
 ### How to use
@@ -20,8 +20,10 @@ This template compiles SASS to optimized CSS code. Run the command `npm build` t
 
 ### Techniques
 <hr/>
-* BEM CSS conventions
-* Independent components
-* Fully responsive
-* CSS Flexbox & Grid
-* Mobile first
+<ul>
+  <li>BEM CSS conventions</li>
+  <li>Independent components</li>
+  <li>Fully responsive</li>
+  <li>CSS Flexbox & Grid</li>
+  <li>Mobile first</li>
+</ul>
