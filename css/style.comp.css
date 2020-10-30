@@ -145,7 +145,13 @@ body {
 ** Hero
 */
 .c-hero {
-  position: relative; }
+  position: relative;
+  background-color: #101d2d;
+  padding-bottom: 1.5rem; }
+  @media only screen and (min-width: 992px) {
+    .c-hero {
+      background-color: transparent;
+      padding: inherit; } }
   .c-hero .c-hero__content {
     z-index: 1;
     display: flex;
@@ -158,7 +164,11 @@ body {
       .c-hero .c-hero__content {
         padding: 10rem 12rem 3rem 12rem; } }
   .c-hero .c-hero__button-group {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    display: flex; }
+    @media only screen and (min-width: 992px) {
+      .c-hero .c-hero__button-group {
+        display: inherit; } }
   .c-hero .c-hero__img-holder {
     width: 100%;
     margin: 0 auto;

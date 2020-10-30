@@ -4,6 +4,13 @@
 
 .c-hero {
   position: relative;
+  background-color: $color-blue-dark;
+  padding-bottom: 1.5rem;
+
+  @media only screen and (min-width: $bp-large) {
+    background-color: transparent;
+    padding: inherit;
+  }
 
   .c-hero__content {
     z-index: 1;
@@ -21,6 +28,11 @@
 
   .c-hero__button-group {
     margin-top: 2rem;
+    display: flex;
+
+    @media only screen and (min-width: $bp-large) {
+      display: inherit;
+    }
   }
 
   .c-hero__img-holder {
